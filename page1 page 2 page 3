@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+    
+
+    <html>
+        <style>
+            img{
+                width: 500px; 
+                height: 150px;
+                border: 6px solid;
+                
+                border-color: rgba(0, 0, 255, 0.334);
+                
+            }
+        </style>
+
+    <head>
+        <style>
+            iframe{
+                width: 200px;
+                height: 150px;
+                border: 2px solid;
+                float:right;
+            }
+        </style>
+
+    <style> 
+    body {
+        margin: 0;
+    }
+    body {
+        background-color: #f1f1f1;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .wrapper {
+        width: 1200px;
+        display: flex;
+        margin: 0 auto;
+        background-color: rgba(107, 209, 12, 0.768);
+    }
+    .main {
+        display: flex;
+        flex-flow: column;
+        width: 85%;
+    }
+    .menu {
+        width: 15%;
+        background-color: rgba(169, 175, 197, 0.714);
+        padding: 10px 20px 0px;
+    }
+    .header {
+        background-color: rgb(5, 108, 108);
+        min-height: 150px;
+        color: rgba(51, 34, 234, 0.899);
+    }
+    .content {
+        background-color: rgba(218, 237, 112, 0.681);
+        min-height: 300px;
+        padding: 20px;
+    }
+    .footer {
+        background-color: rgba(19, 157, 195, 0.582);
+    }
+    </style>
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+        Nome:<input type="text" >
+        enderço: <input type="text" row="20" name="Endereço">
+        Telefone: <input type="tel" name="telefone:" id="">     
+        Enviar: <input type="submit" value=""> <br>
+        refazer cadastrado: <input type="reset" value="">
+            <ul>
+                <li><a href="site2.html"><i>mais informações:</i></a><br>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <h1><strong>Clinic clinic</strong></h1>
+                <img src="clinic1.jpg" width="800px" min-height="150px"                
+                Header
+                
+            </div>
+
+            <div class="content">
+                <H1> Essa clinica é espacializada em varios procedimentos</H1><br>
+                <p><i>Um deles ira ajudar vc a se sentir cada vez</i> <strong>melhor</strong></p>
+                <table>
+                    
+                    <tr>
+                        <td>Saúde</td>
+                    </tr>
+                    <tr>
+                        <td>Bem estar</td>
+                        <tr>
+                            <td>Alimentação saudavel</td>
+                        </tr>
+                        <tr>
+                            <td>conforto e lazer
+                        
+                            </td>
+                        </tr>
+                </table>
+                <img src="clinic2.jpg" width="100px;" height="150px" float="right;">
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.363197358561!2d-46.603793523839045!3d-23.555395761374676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59485e7db5db%3A0xdd7578fdcdc641f0!2sR.%20da%20Mooca%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1696358840303!5m2!1spt-BR!2sbr" width="200" height="150" style="border:1px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">enderço</iframe>
+                <!-- Aqui vai o seu conteúdo -->
+            </div>
+
+            <div class="footer">
+                <h6>Para mais informações entre em contado direto com a gente, ficaremos felizes em atente-lo(a)</h6>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+pagina dois:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+    
+
+    <html>
+
+  
+    <head>
+        
+        
+    <style>
+        table tbody td{
+            cursor: pointer;
+          }
+          </style>
+          <style>
+            table{
+                border: 2px;
+                color: black;
+                float:right;
+            }
+          </style>
+
+<style>
+    body{
+    
+   
+        background-color: #f1f1f1;
+        display: flex;
+        justify-content: center;
+}
+
+    
+    .wrapper {
+        width: 1200px;
+        display: flex;
+        margin: 0 auto;
+        background-color: rgba(107, 209, 12, 0.768);
+    }
+    .main {
+        display: flex;
+        flex-flow: column;
+        width: 85%;
+    }
+    .menu {
+        width: 15%;
+        background-color: rgba(169, 175, 197, 0.714);
+        padding: 10px 20px 0px;
+        color: rgba(235, 138, 19, 0.833);
+    }
+    .header {
+        background-color: rgb(5, 108, 108);
+        min-height: 150px;
+        color: rgba(51, 34, 234, 0.899);
+    }
+    .content {
+        background-color: rgba(218, 237, 112, 0.681);
+        min-height: 300px;
+        padding: 20px;
+    }
+    .footer {
+        background-color: rgba(19, 157, 195, 0.582);
+    }
+    </style>
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <h1><i>Serviços:</i></h1>
+            <h2>Podologia.</h2>
+            <h2>Estetica facial.</h2>
+            <h2>Postura e rpg</h2>
+            <h2>Hair style personal</h2>
+        
+            <ul> <li><a href="site3.html">valores:</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <h1><strong>Clinic clinic</strong></h1>
+                <img src="clinic1.jpg" width="800px" min-height="150px">                
+                
+                
+            </div>
+
+            <div class="content">
+                <h3>Estamos sempre prontos para tirar suas duvidas.</h3>
+                <h4>personalição no atentimento.</h4>
+               
+
+               </table>
+
+               <table>
+                <th> horarios:</th>
+                <tr>
+                    <td>segundas: 07:00/18:00</td>
+                </tr>
+                <tr>
+                    <td>quartas: 07:00/18:00</td>
+                </tr>
+                <tr>
+                    <td>sextas: 07:00/18:00 </td>
+                </tr>
+               <td> sabados e feriados: 08:00/14:00</td>
+               </table> <br>
+               
+               <table>
+                    
+               <ul><li>Saúde</li></ul>
+               <ul><li>Bem estar</li></ul>
+               <ul><li>Alimentação saudavel</li></ul>
+               <ul><li>Conforto e lazer</li></ul>
+            
+                </table>
+                
+                
+                <!-- Aqui vai o seu conteúdo -->
+            </div>
+
+            <div class="footer">
+                <h6>para mais informações entre em contado direto com a gente, ficaremos felizes em atente-lo(a)</h6>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+pagina 3:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+    
+
+    <html>
+        <style>
+            img{
+                width: 500px; 
+                height: 150px;
+                border: 6px solid;
+                
+                border-color: rgba(0, 0, 255, 0.334);
+                
+            }
+        </style>
+
+    <head>
+        
+        </style>
+        <style>
+            iframe{
+                width: 200px;
+                height: 150px;
+                border: 2px solid;
+                float:right;
+            }
+        </style>
+
+    <style> 
+    body {
+        margin: 0;
+    }
+    body {
+        background-color: #0d9fd9fb;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .wrapper {
+        width: 1200px;
+        display: flex;
+        margin: 0 auto;
+        background-color: rgba(107, 209, 12, 0.768);
+    }
+    .main {
+        display: flex;
+        flex-flow: column;
+        width: 85%;
+    }
+    .menu {
+        width: 15%;
+        background-color: rgba(21, 62, 209, 0.095);
+        padding: 10px 20px 0px;
+        color:aqua
+    }
+    .header {
+        background-color: rgb(5, 108, 108);
+        min-height: 150px;
+        color: rgba(51, 34, 234, 0.899);
+    }
+    .content {
+        background-color: rgba(218, 237, 112, 0.681);
+        min-height: 300px;
+        padding: 20px;
+        color: rgba(232, 162, 11, 0.846);
+        text-align: center;
+    }
+    .footer {
+        background-color: rgba(19, 157, 195, 0.582);
+    }
+    </style>
+
+</head>
+<body>
+    <div class="wrapper">
+      
+      <div class="menu">
+        <h1>Obrigado pela preferencia.</h1>
+        <ul><li>   <a href="sitedio.html">voltar</a>   </li></ul>
+      
+        
+       
+      </div>
+
+        <div class="main">
+            <div class="header">
+                <h1><strong>Clinic clinic</strong></h1>
+                <img src="clinic2.jpg" width="800px" min-height="150px"  >              
+                Header
+                
+            </div>
+
+            <div class="content"> 
+
+<h1>podologia: R$ 40</h1>
+<h1>estetica facial R$ 70</h1>
+<h1>postura e rpg R$ 100 (por sessão)</h1>
+<h1>hair style personal (consulte valores com o profissional)</h1>
+            </div>
+              
+
+            <div class="footer">
+                <h6> agentas abertas no tel:98765-7432 ou pelo whatssap: 1198765432</h6>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
